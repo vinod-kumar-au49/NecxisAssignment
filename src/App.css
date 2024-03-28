@@ -32,7 +32,120 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  background-color: rgb(172, 162, 162);
+  margin: 0px 500px 500px;
+  height: 690px;
+  border-radius: 10px;
+}
+
+.heading {
+  margin: 20px 10px;
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.name {
+  font-size: large;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.mini {
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+
+.submini {
+  padding-right: 60px;
+  font-weight: bold;
+}
+
+.submini2 {
+  padding-right: 60px;
+  font-weight: bold;
+}
+
+.submini3 {
+
+  font-weight: bold;
+}
+.mianhead{
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+background-color: white;
+  border-radius: 50%; 
+}
+
+.m{
+  padding-left: 200px;
+  padding-bottom: 300px;
+}
+
+.submini4{
+  padding-top: 35px;
+  padding-right: 150px;
+}
+.miniheads{
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+
+}
+.miniheads2{
+  display: flex;
+justify-content: space-between;
+  padding-left: 20px;
+ 
+  }
+  .textname{
+    padding-left: 20px;
+  }
+.profilename{
+ padding-right: 420px;
+}
+.buttons{
+  size: 200px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.story{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.grid{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.postline{
+  color: blue;
+  
+}
+
+.footer{
+  padding-top: 190px;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+
 }
